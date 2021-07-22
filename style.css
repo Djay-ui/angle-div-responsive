@@ -1,1 +1,41 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  background: #262626;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 400px;
+  width: 1200px;
+  background: #000;
+  -webkit-box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content {
+  width: calc(50% - 50px);
+  height: 100%;
+  background: #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.imgBox {
+  width: calc(50% + 50px);
+  height: 100%;
+  background: #f00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-left: 100px solid #000;
+  border-bottom: 400px solid transparent;
+  background: url(/contact.png);
+}
+/*# sourceMappingURL=style.css.map */
