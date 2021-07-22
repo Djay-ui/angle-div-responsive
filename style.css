@@ -36,6 +36,7 @@ section {
           box-sizing: border-box;
   border-left: 100px solid #000;
   border-bottom: 400px solid transparent;
-  background: url(/contact.png);
+  background: url();
+  background-position: -100px -150px;
 }
 /*# sourceMappingURL=style.css.map */
